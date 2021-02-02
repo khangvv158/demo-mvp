@@ -1,7 +1,8 @@
-package com.example.demomvp
+package com.example.demomvp.screen.main
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import com.example.demomvp.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
