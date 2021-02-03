@@ -54,7 +54,7 @@ class ParseDataWithJson {
             val jsonArray = jsonObject?.getJSONArray(keyEntity)
             for (i in 0 until (jsonArray?.length() ?: 0)) {
                 val jsonObjects = jsonArray?.getJSONObject(i)
-                val item = ParseDataWithJson().parseJsonToObject(jsonObject, keyEntity)
+                val item = ParseDataWithJson().parseJsonToObject(jsonObjects, keyEntity)
                 item?.let {
                     data.add(it)
                 }
